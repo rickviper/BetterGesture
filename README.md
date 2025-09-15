@@ -18,7 +18,7 @@ BetterGestures is a hand-gesture based control system that uses your webcam and 
 - Smooth cursor motion and click detection for stability.  
 
 ### General  
-- Toggle between **Mouse Mode** and **Keyboard Mode** with the “call sign” hand gesture (thumb + pinky extended).  
+- Toggle between **Mouse Mode** and **Keyboard Mode** with the “call sign” hand gesture (thumb + pinky extended). The current mode is displayed on the tracking window. 
 - Real-time display: See gesture tracking and current mode on-screen.
 
   <br>
@@ -63,7 +63,7 @@ pip install opencv-python mediapipe pyautogui numpy
  
    - Pinch with ring finger + thumb → Right click.
 
-   - Press `q` to quit.
+   - Select the tracking window and press `q` to quit.
   
      <br>
 
