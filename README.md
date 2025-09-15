@@ -26,7 +26,7 @@ BetterGestures is a hand-gesture based control system that uses your webcam and 
 ## 📦 Requirements  
 
 - Tested on **Windows**  
-- Make sure you have **Python 3.12 or lower** (Mediapipe doesn’t support higher versions).  
+- Make sure you have **Python 3.12 or lower** (Mediapipe doesn’t support higher python versions).  
 
 Install dependencies:  
 ```bash
