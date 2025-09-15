@@ -102,7 +102,7 @@ def is_thumbs_up(lm):
     #detects a thumbs up gesture.
     return lm[4].y < lm[3].y and lm[8].y > lm[6].y
 
-# Inside the main loop:
+#in main loop 
 if is_thumbs_up(lm):
     pyautogui.press("volumeup")   # increase system volume
 ```
