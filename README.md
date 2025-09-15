@@ -3,6 +3,7 @@
 BetterGestures is a hand-gesture based control system that uses your webcam and [MediaPipe](https://developers.google.com/mediapipe) to recognize hand movements and perform system actions like **alt+tab switching, play/pause control, mouse movement, and clicking** all without touching your keyboard or mouse.  
 
 <br>
+
 ## ✨ Features  
 
 ### Keyboard mode  
@@ -19,6 +20,7 @@ BetterGestures is a hand-gesture based control system that uses your webcam and 
 ### General  
 - Toggle between **Mouse Mode** and **Keyboard Mode** with the “call sign” hand gesture (thumb + pinky extended).  
 - Real-time display: See gesture tracking and current mode on-screen.
+
   <br>
 
 ## 📦 Requirements  
@@ -62,6 +64,8 @@ pip install opencv-python mediapipe pyautogui numpy
    - Pinch with ring finger + thumb → Right click.
 
    - Press `q` to quit.
+  
+     <br>
 
 ## ❔ How it works
  - Uses MediaPipe Hands to detect 21 landmarks on the hand.
