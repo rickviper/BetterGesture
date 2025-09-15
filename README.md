@@ -1,4 +1,4 @@
-# BetterGestures  
+# BetterGesture
 
 BetterGestures is a hand-gesture based control system that uses your webcam and [MediaPipe](https://developers.google.com/mediapipe) to recognize hand movements and perform system actions like **alt+tab switching, play/pause control, mouse movement, and clicking**. All without touching your keyboard or mouse.  
 
