@@ -6,15 +6,15 @@ BetterGestures is a hand-gesture based control system that uses your webcam and 
 
 
 ## Features
-
-#### Keyboard mode:
+<ul>
+ <li>#### Keyboard mode:</li>
 
 - Switch applications with Alt+Tab (index finger only).
 
 - Play/Pause media with an open palm.
 - Easily remap gestures to other keys or key combinations (e.g., volume control, screenshots, shortcuts).
 
-#### Mouse mode:
+<li>#### Mouse mode:</li>
 
 - Move cursor using hand position.
 
@@ -24,15 +24,16 @@ BetterGestures is a hand-gesture based control system that uses your webcam and 
 
 - Smooth cursor motion and click detection for stability.
 
-Toggle between Mouse Mode and Keyboard Mode with the “call-sign” hand gesture (thumb + pinky extended).
+<li>Toggle between Mouse Mode and Keyboard Mode with the “call-sign” hand gesture (thumb + pinky extended).</li>
 
-Real-time display: See gesture tracking and current mode on-screen.
+<li>Real-time display: See gesture tracking and current mode on-screen.</li>
+</ul>
 
 ## Requirements
 
 Tested on Windows
 
-Make sure you have python 3.12 or lower
+Make sure you have python 3.12 or lower (Mediapipe doesn't support higher python versions)
 
 Install dependencies:
 
@@ -98,12 +99,14 @@ Contributions are always welcome!
 - Map your gesture to any keyboard key, key combination, or mouse action using PyAutoGUI.
 
 - Examples:
+<ul>
+ <li></li>Control volume (```volumeup```, ```volumedown```).</li>
 
-Control volume (```volumeup```, ```volumedown```).
+ <li>Take screenshots (```ctrl+shift+s```).</li>
 
-Take screenshots (```ctrl+shift+s```).
+ <li>Open apps (```win+r``` → type command).</li>
+ </ul>
 
-Open apps (```win+r``` → type command).
 
 - Submit a pull request to share your gesture with the community
 
