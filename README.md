@@ -64,7 +64,8 @@ pip install opencv-python mediapipe pyautogui numpy
    - Pinch with ring finger + thumb → Right click.
 
    - Press `q` to quit.
-    
+
+---
 ##❔ How it works
  - Uses MediaPipe Hands to detect 21 landmarks on the hand.
 
@@ -73,6 +74,8 @@ pip install opencv-python mediapipe pyautogui numpy
  - Maps gestures to system events using PyAutoGUI.
 
  - Provides smoothed cursor movement & debounced clicks to reduce noise.
+
+---
 
 ## 🤝 Contributing  
 
