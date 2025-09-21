@@ -12,7 +12,7 @@ BetterGestures is a hand-gesture based control system that uses your webcam and 
 - Easily remap gestures to other keys or key combinations (e.g., volume control, screenshots, shortcuts).  
 
 ### Mouse mode  
-- Move cursor using hand position.  
+- Move cursor using pinch gesture (thumb + index finger).  
 - Perform **left click** (thumb + middle finger pinch).  
 - Perform **right click** (thumb + ring finger pinch).  
 - Smooth cursor motion and click detection for stability.  
